@@ -1,0 +1,876 @@
+[
+  {
+    "table_name": "lookup_availabilityrestriction",
+    "filename": "f_lookup_AvailRestrictInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_basisofname",
+    "filename": "f_lookup_BasisOfNameInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_basisofstrnth",
+    "filename": "f_lookup_BasisOfStrengthInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_colour",
+    "filename": "f_lookup_ColourInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_combinationpackind",
+    "filename": "f_lookup_CombPackIndInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_combinationprodind",
+    "filename": "f_lookup_CombProdIndInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_controldrugcategory",
+    "filename": "f_lookup_ControlDrugCatInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_dfindicator",
+    "filename": "f_lookup_DfIndInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_discontinuedind",
+    "filename": "f_lookup_DiscIndInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_dnd",
+    "filename": "f_lookup_DNDInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_dtpaymentcategory",
+    "filename": "f_lookup_DtPayCatInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_flavour",
+    "filename": "f_lookup_FlavourInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_form",
+    "filename": "f_lookup_FormHistoryInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "bigint",
+    "foreign_keys": [],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "cddt"
+      }
+    ]
+  },
+  {
+    "table_name": "lookup_legalcategory",
+    "filename": "f_lookup_LegalCatInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_licensingauthoritychangereason",
+    "filename": "f_lookup_LicAuthChgRsnInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_licensingauthority",
+    "filename": "f_lookup_LicAuthIndInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_namechangereason",
+    "filename": "f_lookup_NamechangeReasonInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_ontformroute",
+    "filename": "f_lookup_OntFormRouteInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_pricebasis",
+    "filename": "f_lookup_PriceBasisInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_reimbursementstatus",
+    "filename": "f_lookup_ReimbStatInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_route",
+    "filename": "f_lookup_RouteHistoryInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "bigint",
+    "foreign_keys": [],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "cddt"
+      }
+    ]
+  },
+  {
+    "table_name": "lookup_speccont",
+    "filename": "f_lookup_SpecContInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_supplier",
+    "filename": "f_lookup_SupplierSupplierInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "bigint",
+    "foreign_keys": [],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "cddt"
+      }
+    ]
+  },
+  {
+    "table_name": "lookup_unitofmeasure",
+    "filename": "f_lookup_UoMHistoryInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "bigint",
+    "foreign_keys": [],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "cddt"
+      }
+    ]
+  },
+  {
+    "table_name": "lookup_virtualproductnonavail",
+    "filename": "f_lookup_VirProdNoAvailInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "lookup_virtualproductpresstatus",
+    "filename": "f_lookup_VirProdPresStatInfoType.csv",
+    "primary_key": "cd",
+    "primary_key_type": "character varying",
+    "foreign_keys": [],
+    "date_columns": []
+  },
+  {
+    "table_name": "ingredient",
+    "filename": "f_ingredient.csv",
+    "primary_key": "isid",
+    "primary_key_type": "bigint",
+    "foreign_keys": [],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "isiddt"
+      }
+    ]
+  },
+  {
+    "table_name": "vtm",
+    "filename": "f_vtm.csv",
+    "primary_key": "vtmid",
+    "primary_key_type": "bigint",
+    "foreign_keys": [],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "vtmiddt"
+      }
+    ]
+  },
+  {
+    "table_name": "vmp",
+    "filename": "f_vmp_VmpType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "pres_statcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_virtualproductpresstatus",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "basis_prevcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_basisofname",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "basiscd",
+        "is_nullable": false,
+        "referenced_table": "lookup_basisofname",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "combprodcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_combinationprodind",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "df_indcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_dfindicator",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "nmchangecd",
+        "is_nullable": true,
+        "referenced_table": "lookup_namechangereason",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "non_availcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_virtualproductnonavail",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "udfs_uomcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_unitofmeasure",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "unit_dose_uomcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_unitofmeasure",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "vtmid",
+        "is_nullable": true,
+        "referenced_table": "vtm",
+        "referenced_column": "vtmid"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "non_availdt"
+      },
+      {
+        "data_type": "date",
+        "column_name": "nmdt"
+      },
+      {
+        "data_type": "date",
+        "column_name": "vpiddt"
+      }
+    ]
+  },
+  {
+    "table_name": "vmp_vpi",
+    "filename": "f_vmp_VpiType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "basis_strntcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_basisofstrnth",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "strnt_nmrtr_uomcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_unitofmeasure",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "isid",
+        "is_nullable": false,
+        "referenced_table": "ingredient",
+        "referenced_column": "isid"
+      },
+      {
+        "column_name": "strnt_dnmtr_uomcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_unitofmeasure",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "bs_subid",
+        "is_nullable": true,
+        "referenced_table": "ingredient",
+        "referenced_column": "isid"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "vmp_controlinfo",
+    "filename": "f_vmp_ControlInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "cat_prevcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_controldrugcategory",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "catcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_controldrugcategory",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "catdt"
+      }
+    ]
+  },
+  {
+    "table_name": "vmp_dform",
+    "filename": "f_vmp_DrugFormType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "formcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_form",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "vmp_droute",
+    "filename": "f_vmp_DrugRouteType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "routecd",
+        "is_nullable": false,
+        "referenced_table": "lookup_route",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "vmp_ont",
+    "filename": "f_vmp_OntDrugFormType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "formcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_ontformroute",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "vmpp",
+    "filename": "f_vmpp_VmppType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "qty_uomcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_unitofmeasure",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "combpackcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_combinationpackind",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "vmpp_contenttype",
+    "filename": "f_vmpp_ContentType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "prntvppid",
+        "is_nullable": false,
+        "referenced_table": "vmpp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "childvppid",
+        "is_nullable": false,
+        "referenced_table": "vmpp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "vmpp_dtinfo",
+    "filename": "f_vmpp_DtInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "pay_catcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_dtpaymentcategory",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "vppid",
+        "is_nullable": false,
+        "referenced_table": "vmpp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "dt"
+      }
+    ]
+  },
+  {
+    "table_name": "amp",
+    "filename": "f_amp_AmpType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "avail_restrictcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_availabilityrestriction",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "suppcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_supplier",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "vpid",
+        "is_nullable": false,
+        "referenced_table": "vmp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "combprodcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_combinationprodind",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "flavourcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_flavour",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "lic_auth_prevcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_licensingauthority",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "lic_authcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_licensingauthority",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "lic_authchangecd",
+        "is_nullable": true,
+        "referenced_table": "lookup_licensingauthoritychangereason",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "nmdt"
+      },
+      {
+        "data_type": "date",
+        "column_name": "lic_authchangedt"
+      }
+    ]
+  },
+  {
+    "table_name": "amp_ingredient",
+    "filename": "f_amp_ApiType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "apid",
+        "is_nullable": false,
+        "referenced_table": "amp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "uomcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_unitofmeasure",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "isid",
+        "is_nullable": false,
+        "referenced_table": "ingredient",
+        "referenced_column": "isid"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "amp_apinfo",
+    "filename": "f_amp_AppProdInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "colourcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_colour",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "apid",
+        "is_nullable": false,
+        "referenced_table": "amp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "amp_licroute",
+    "filename": "f_amp_LicRouteType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "routecd",
+        "is_nullable": false,
+        "referenced_table": "lookup_route",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "apid",
+        "is_nullable": false,
+        "referenced_table": "amp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "ampp",
+    "filename": "f_ampp_AmppType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "combpackcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_combinationpackind",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "apid",
+        "is_nullable": false,
+        "referenced_table": "amp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "vppid",
+        "is_nullable": false,
+        "referenced_table": "vmpp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "legal_catcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_legalcategory",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "disccd",
+        "is_nullable": true,
+        "referenced_table": "lookup_discontinuedind",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "discdt"
+      }
+    ]
+  },
+  {
+    "table_name": "ampp_contenttype",
+    "filename": "f_ampp_ContentType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "childappid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "prntappid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "ampp_packinfo",
+    "filename": "f_ampp_PackInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "reimb_statprevcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_reimbursementstatus",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "appid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "reimb_statcd",
+        "is_nullable": false,
+        "referenced_table": "lookup_reimbursementstatus",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "reimb_statdt"
+      }
+    ]
+  },
+  {
+    "table_name": "ampp_prescribinfo",
+    "filename": "f_ampp_PrescInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "appid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "ampp_priceinfo",
+    "filename": "f_ampp_PriceInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "price_basiscd",
+        "is_nullable": false,
+        "referenced_table": "lookup_pricebasis",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "appid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "pricedt"
+      }
+    ]
+  },
+  {
+    "table_name": "ampp_reimbinfo",
+    "filename": "f_ampp_ReimbInfoType.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "appid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      },
+      {
+        "column_name": "spec_contcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_speccont",
+        "referenced_column": "cd"
+      },
+      {
+        "column_name": "dndcd",
+        "is_nullable": true,
+        "referenced_table": "lookup_dnd",
+        "referenced_column": "cd"
+      }
+    ],
+    "date_columns": []
+  },
+  {
+    "table_name": "gtin",
+    "filename": "f_gtin.csv",
+    "primary_key": "id",
+    "primary_key_type": "integer",
+    "foreign_keys": [
+      {
+        "column_name": "amppid",
+        "is_nullable": false,
+        "referenced_table": "ampp",
+        "referenced_column": "id"
+      }
+    ],
+    "date_columns": [
+      {
+        "data_type": "date",
+        "column_name": "enddt"
+      },
+      {
+        "data_type": "date",
+        "column_name": "startdt"
+      }
+    ]
+  }
+]
